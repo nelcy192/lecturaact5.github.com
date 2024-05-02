@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="comprension_estructuras_textuales" version="0.1.3">
+ <settings>
+  <title>comprensión estructuras textuales</title>
+  <revision description="created" date="5/1/24" />
+  <descriptors />
+  <meta_langs>es</meta_langs>
+  <descriptions>
+   <description language="es" />
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="act1" />
+  <item name="ACT2" />
+  <item name="ACTI3" />
+ </sequence>
+ <activities>
+  <activity class="@text.Complete" name="act1" code="">
+   <description />
+   <messages>
+    <cell type="previous">
+     <style>
+      <font family="Times New Roman" size="17" />
+      <color background="0x0099CC" />
+     </style>
+     <p>Lee la Fabula el León Enamorado desarrolla la siguente actividad.</p>
+    </cell>
+    <cell type="initial">
+     <style>
+      <font family="Times New Roman" size="17" />
+      <color background="0x0099CC" />
+     </style>
+     <p>Escribe las palabras que faltan en el texto.</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxActions="5" countDownActions="false" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="anamorao.png" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+   </settings>
+   <checkButton>Evaluación</checkButton>
+   <prevScreen maxTime="15">
+    <style>
+     <font family="Times New Roman" size="17" />
+     <color foreground="0x663300" background="0x00CCCC" border="0x006666" />
+    </style>
+    <p>EL LEÓN ENAMORADO&#xD;</p>
+    <p>Amaba un León a una zagala hermosa;&#xD;</p>
+    <p>Pidióla por esposa&#xD;</p>
+    <p>A su padre, pastor, urbanamente.&#xD;</p>
+    <p>El hombre, temeroso mas prudente,&#xD;</p>
+    <p>Le respondió: «Señor, en mi conciencia,&#xD;</p>
+    <p>Que la muchacha logra conveniencia;&#xD;</p>
+    <p>Pero la pobrecita, acostumbrada&#xD;</p>
+    <p>A no salir del prado y la majada,&#xD;</p>
+    <p>Entre la mansa oveja y el cordero,&#xD;</p>
+    <p>Recelará tal vez que seas fiero.&#xD;</p>
+    <p>No obstante, bien podremos, si consientes,&#xD;</p>
+    <p>Cortar tus uñas y limar tus dientes,&#xD;</p>
+    <p>Y así verá que tiene tu grandeza&#xD;</p>
+    <p>Cosas de majestad, no de fiereza.»&#xD;</p>
+    <p>Consiente el manso León enamorado,&#xD;</p>
+    <p>Y el buen hombre lo deja desarmado;&#xD;</p>
+    <p>Da luego su silbido:&#xD;</p>
+    <p>Llegan el Matalobos y Atrevido,&#xD;</p>
+    <p>Perros de su cabaña; de esta suerte&#xD;</p>
+    <p>Al indefenso León dieron la muerte.&#xD;</p>
+    <p>Un cuarto apostaré a que en este instante&#xD;</p>
+    <p>Dice, hablando del León, algún amante,&#xD;</p>
+    <p>Que de la misma muerte haría gala,&#xD;</p>
+    <p>Con tal que se la diese la zagala.&#xD;</p>
+    <p>Deja, Fabio, el amor, déjalo luego;&#xD;</p>
+    <p>Mas hablo en vano, porque, siempre ciego,&#xD;</p>
+    <p>No ves el desengaño,&#xD;</p>
+    <p>Y así te entregas a tu propio daño.</p>
+   </prevScreen>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">EL LEÓN ENAMORADO</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">Amaba un </text>
+      <target>León</target>
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933"> a una zagala hermosa;</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">Pidióla por esposa</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">A su padre, pastor, </text>
+      <target>urbanamente</target>
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">.</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">El hombre, temeroso mas </text>
+      <target>prudente</target>
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">,</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">Le respondió: «</text>
+      <target>Señor</target>
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">, en mi conciencia,</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">Que la </text>
+      <target>muchacha</target>
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933"> logra conveniencia;</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">Pero la pobrecita, acostumbrada</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">A no salir del prado y la majada,</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">Entre la mansa </text>
+      <target>oveja</target>
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933"> y el cordero,</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">Recelará tal vez que seas fiero.</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">No obstante, bien podremos, si consientes,</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">Cortar tus uñas y limar tus dientes,</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">Y así verá que tiene tu grandeza</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">Cosas de majestad, no de fiereza.»</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">Consiente el manso León enamorado,</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">Y el buen hombre lo deja desarmado;</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">Da luego su silbido:</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">Llegan el Matalobos y Atrevido,</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">Perros de su cabaña; de esta suerte</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">Al indefenso León dieron la muerte.</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">Un cuarto apostaré a que en este instante</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">Dice, hablando del </text>
+      <target>León</target>
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">, algún amante,</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">Que de la misma muerte haría gala,</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">Con tal que se la diese la </text>
+      <target>zagala</target>
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">.</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">Deja, Fabio, el amor, déjalo luego;</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">Mas hablo en vano, porque, siempre ciego,</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">No ves el desengaño,</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x009933">Y así te entregas a tu propio daño.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" checkCase="true" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="ACT2" code="">
+   <description />
+   <messages>
+    <cell type="previous">
+     <style>
+      <font family="Times New Roman" size="17" />
+      <color background="0x0099CC" />
+     </style>
+     <p>Lee la fábula EL JABALÍ Y LA ZORRA y realiza la siguiente actividad.</p>
+    </cell>
+    <cell type="initial">
+     <style>
+      <font family="Times New Roman" size="17" />
+      <color background="0x0099CC" />
+     </style>
+     <p>Completa el texto.</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="zorr.png" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+   </settings>
+   <prevScreen maxTime="15">
+    <style borderStroke="0.7" markerStroke="5.0">
+     <font family="Times New Roman" size="17" />
+     <color foreground="0xFF3333" background="0xFFFFFF" />
+    </style>
+    <p>EL JABALÍ Y LA ZORRA&#xD;</p>
+    <p>&#xD;</p>
+    <p>Sus horribles colmillos aguzaba&#xD;</p>
+    <p>Un Jabalí en el tronco de una encina.&#xD;</p>
+    <p>La Zorra, que vecina&#xD;</p>
+    <p>Del animal cerdoso se miraba,&#xD;</p>
+    <p>Le dice: «Extraño el verte,&#xD;</p>
+    <p>Siendo tú en paz señor de la bellota,&#xD;</p>
+    <p>Cuando ningún contrario te alborota,&#xD;</p>
+    <p>Que tus armas afiles de esa suerte.»&#xD;</p>
+    <p>&#xD;</p>
+    <p>La fiera respondió: «Tenga entendido&#xD;</p>
+    <p>Que en la paz se prepara el buen guerrero,&#xD;</p>
+    <p>Así como en la calma el marinero,&#xD;</p>
+    <p>Y que vale por dos el prevenido.</p>
+   </prevScreen>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Times New Roman" size="14">EL JABALÍ Y LA ZORRA</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Times New Roman" size="14">Sus horribles </text>
+      <target>
+       <answer>colmillos</answer>
+       <optionList>
+        <option>orejas</option>
+        <option>colmillos</option>
+        <option>ojos</option>
+        <option>palabras</option>
+       </optionList>
+       <text>colmillos</text>
+      </target>
+      <text family="Times New Roman" size="14"> aguzaba</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Times New Roman" size="14">Un </text>
+      <target>
+       <answer>Jabalí</answer>
+       <optionList>
+        <option>Jabalí</option>
+        <option>Perro</option>
+        <option>Zorro</option>
+        <option>Carro</option>
+       </optionList>
+       <text>Jabalí</text>
+      </target>
+      <text family="Times New Roman" size="14"> en el tronco de una encina.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <target>
+       <answer>La Zorra</answer>
+       <optionList>
+        <option>La gallina</option>
+        <option>La señora</option>
+        <option>La Zorra</option>
+       </optionList>
+       <text>La Zorra</text>
+      </target>
+      <text family="Times New Roman" size="14">, que vecina</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Times New Roman" size="14">Del animal cerdoso se miraba,</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Times New Roman" size="14">Le dice: «Extraño el verte,</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Times New Roman" size="14">Siendo tú en paz </text>
+      <target>
+       <answer>señor</answer>
+       <optionList>
+        <option>Jabalí</option>
+        <option>señor</option>
+        <option>botella</option>
+       </optionList>
+       <text>señor</text>
+      </target>
+      <text family="Times New Roman" size="14"> de la bellota,</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Times New Roman" size="14">Cuando ningún contrario te alborota,</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Times New Roman" size="14">Que tus armas afiles de esa suerte.»</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Times New Roman" size="14">La fiera </text>
+      <target>
+       <answer>respondió</answer>
+       <optionList>
+        <option>comió</option>
+        <option>respondió</option>
+        <option>corrió</option>
+       </optionList>
+       <text>respondió</text>
+      </target>
+      <text family="Times New Roman" size="14">: «Tenga entendido</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Times New Roman" size="14">Que en la </text>
+      <target>
+       <answer>paz</answer>
+       <optionList>
+        <option>guerra</option>
+        <option>tranquilidad</option>
+        <option>paz</option>
+       </optionList>
+       <text>paz</text>
+      </target>
+      <text family="Times New Roman" size="14"> se prepara el buen guerrero,</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Times New Roman" size="14">Así como en la calma el marinero,</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Times New Roman" size="14">Y que vale por dos el prevenido.»</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" checkCase="true" />
+  </activity>
+  <activity class="@text.Order" name="ACTI3" code="" type="orderParagraphs">
+   <description />
+   <messages>
+    <cell type="previous">
+     <style>
+      <font family="Times New Roman" size="17" />
+      <color background="0x0099CC" />
+     </style>
+     <p>Lee la fábula La Codorniz y realiza la siguiente actividad.</p>
+    </cell>
+    <cell type="initial">
+     <style>
+      <font family="Times New Roman" size="17" />
+      <color background="0x0099CC" />
+     </style>
+     <p>Con la ayuda de la lectura anterior organiza los párrafos de la fábula "La Codorniz"</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="codor.png" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true">
+     <size width="435" height="402" />
+    </window>
+   </settings>
+   <checkButton>Evaluación</checkButton>
+   <prevScreen maxTime="15">
+    <style borderStroke="0.7" markerStroke="5.0">
+     <font family="Times New Roman" size="17" />
+     <color foreground="0x0066FF" background="0xFFFFFF" />
+    </style>
+    <p>LA CODORNIZ&#xD;</p>
+    <p>&#xD;</p>
+    <p>Presa en estrecho lazo&#xD;</p>
+    <p>La Codorniz sencilla,&#xD;</p>
+    <p>Daba quejas al aire,&#xD;</p>
+    <p>Ya tarde arrepentida.&#xD;</p>
+    <p>«¡Ay de mí miserable&#xD;</p>
+    <p>Infeliz avecilla,&#xD;</p>
+    <p>Que antes cantaba libre,&#xD;</p>
+    <p>Y ya lloro cautiva!&#xD;</p>
+    <p>Perdí mi nido amado,&#xD;</p>
+    <p>Perdí en él mis delicias,&#xD;</p>
+    <p>Al fin perdilo todo,&#xD;</p>
+    <p>Pues que perdí la vida.&#xD;</p>
+    <p>¿Por qué desgracia tanta?&#xD;</p>
+    <p>¿Por qué tanta desdicha?&#xD;</p>
+    <p>¡Por un grano de trigo!&#xD;</p>
+    <p>¡Oh cara golosina!»»&#xD;</p>
+    <p>El apetito ciego&#xD;</p>
+    <p>¡A cuántos precipita,&#xD;</p>
+    <p>Que por lograr un nada,&#xD;</p>
+    <p>Un todo sacrifican!</p>
+   </prevScreen>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">LA CODORNIZ</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false" />
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <target>Presa en estrecho lazo  </target>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <target>La Codorniz sencilla,</target>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <target>Daba quejas al aire,</target>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <target>Ya tarde arrepentida.</target>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">«¡Ay de mí miserable</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">Infeliz avecilla,</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">Que antes cantaba libre,</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">Y ya lloro cautiva!</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <target>Perdí mi nido amado,</target>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <target>Perdí en él mis delicias,</target>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <target>Al fin perdilo todo,</target>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <target>Pues que perdí la vida.</target>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">¿Por qué desgracia tanta?</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">¿Por qué tanta desdicha?</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">¡Por un grano de trigo!</text>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <target>¡Oh cara golosina!»»</target>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <target>El apetito ciego</target>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <target>¡A cuántos precipita,</target>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <target>Que por lograr un nada,</target>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false">
+      <target>Un todo sacrifican!</target>
+     </p>
+     <p family="Times New Roman" background="0xFFFFFF" size="14" bold="false" italic="false" />
+    </section>
+   </document>
+   <evaluator class="@BasicEvaluator" checkCase="true" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="anamorao.png" file="anamorao.png" />
+  <media name="codor.png" file="codor.png" />
+  <media name="zorr.png" file="zorr.png" />
+ </mediaBag>
+</JClicProject>
+
